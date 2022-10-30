@@ -1,0 +1,58 @@
+package com.example.chatapp
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.Toast
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+
+class SignUp : AppCompatActivity() {
+    private lateinit var edtUname: EditText
+    private lateinit var edtEmail: EditText
+    private lateinit var edtPassword: EditText
+    private lateinit var btnSignUp: Button
+    private lateinit var mAuth: FirebaseAuth
+    private lateinit var mDbRef: DatabaseReference
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_sign_up)
+
+        mAuth = FirebaseAuth.getInstance()
+
+        edtUname = findViewById<EditText>(R.id.edt_uname)
+        edtEmail = findViewById<EditText>(R.id.edt_email)
+        edtPassword = findViewById<EditText>(R.id.edt_pass)
+        btnSignUp = findViewById<Button>(R.id.btn_Sup)
+        btnSignUp.setOnClickListener {
+            val name= edtUname.text.toString()
+            val email= edtEmail.text.toString()
+            val pass= edtPassword.text.toString()
+           signup(name,email,pass);
+        }
+    }
+    private fun signup(name:String?,email:String, pass:String){
+        mAuth.createUserWithEmailAndPassword(email, pass)
+            .addOnCompleteListener(this) { task ->
+                if (task.isSuccessful) {
+                    // Sign in success, update UI with the signed-in user's information
+                   addUserToDatabase(name, email,mAuth.currentUser?.uid!!)
+                    val intent= Intent(this@SignUp,MainActivity::class.java)
+                    finish()
+                    startActivity(intent)
+
+                } else {
+                    // If sign in fails, display a message to the user.
+                    Toast.makeText(this@SignUp, "Some Error Occurred", Toast.LENGTH_SHORT).show()
+                }
+            }
+    }
+
+    private fun addUserToDatabase(name: String?, email: String,uid: String){
+        mDbRef = FirebaseDatabase.getInstance().getReference()
+        mDbRef.child("user").child(uid).setValue(User(name, email, uid))
+    }
+}
