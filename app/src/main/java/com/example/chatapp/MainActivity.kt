@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        supportActionBar?.title="App Name"
+        supportActionBar?.title="ChatApp"
         menuInflater.inflate(R.menu.menu,menu)
         return super.onCreateOptionsMenu(menu)
 

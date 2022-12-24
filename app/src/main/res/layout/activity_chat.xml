@@ -29,7 +29,7 @@
             android:id="@+id/messageBox"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:hint="Type somthing...."
+            android:hint="@string/type_something"
             android:layout_weight="80"
             android:layout_marginStart="10dp"
             android:padding="10dp"

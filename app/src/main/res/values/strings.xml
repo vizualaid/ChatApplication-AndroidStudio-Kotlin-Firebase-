@@ -10,4 +10,5 @@
     <string name="user_name">User Name</string>
     <string name="log_out">Log Out</string>
     <string name="chatApplication">ChatApplication</string>
+    <string name="type_something">Type something....</string>
 </resources>

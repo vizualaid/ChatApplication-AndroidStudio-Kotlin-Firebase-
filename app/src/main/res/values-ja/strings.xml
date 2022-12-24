@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">チャットアプリ</string>
+    <string name="todo">TODO</string>
+    <string name="email">Eメール</string>
+    <string name="password">パスワード</string>
+    <string name="log_in">ログインする</string>
+    <string name="sign_in">サインアップ</string>
+    <string name="sign_up">サインアップ</string>
+    <string name="uname">ユーザー名</string>
+    <string name="user_name">ユーザー名</string>
+    <string name="log_out">ログアウト</string>
+    <string name="chatApplication">ChatApplication</string>
+    <string name="type_something">タイプ....</string>
+</resources>
