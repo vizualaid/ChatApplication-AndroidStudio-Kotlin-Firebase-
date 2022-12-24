@@ -1,1 +1,26 @@
 # ChatApplication-AndroidStudio-Kotlin-Firebase-
+
+1. 
+
+![image](https://user-images.githubusercontent.com/74894810/209445088-824bb632-c723-4e0c-8293-270cec5e2d0d.png)
+
+2.
+
+![image](https://user-images.githubusercontent.com/74894810/209445118-8fba0485-c1e0-4959-94bd-59fbd8280dee.png)
+
+3.
+![image](https://user-images.githubusercontent.com/74894810/209446151-3cf1327a-84d9-46c0-be81-18a703c1ecca.png)
+
+4.
+
+![image](https://user-images.githubusercontent.com/74894810/209445183-1ccf2a54-6a2d-446c-bfcb-b64bc2227d89.png)
+
+5.
+
+![image](https://user-images.githubusercontent.com/74894810/209445532-07c7bd97-7ec0-4b1d-80ce-158dd882e6fe.png)
+
+6.
+
+![image](https://user-images.githubusercontent.com/74894810/209446799-d43fd72b-59cb-465e-bc98-71c8b9f0b4fc.png)
+
+
