@@ -1,6 +1,14 @@
 # ChatApplication-AndroidStudio-Kotlin-Firebase-
-ChatApplication is a sample Android application built with Android Studio and the Kotlin programming language. It uses Firebase as the backend to handle user authentication and real-time messaging. This application allows users to create an account, log in, and send text messages to other users in real-time. The Firebase service provides the real-time database, cloud storage, and authentication functionality used in the application.
-It should be noted that this application is a sample and might not be fully functional, or have all features that actual Chat applications have.
+
+ChatApplication is a sample Android application built with Android Studio and the Kotlin programming language. 
+
+1. It uses Firebase as the backend to handle user authentication and real-time messaging.
+
+2. This application allows users to create an account, log in, and send text messages to other users in real-time. 
+
+3. The Firebase service provides the real-time database, cloud storage, and authentication functionality used in the application.
+
+* It should be noted that this application is a sample and might not be fully functional, or have all features that actual Chat applications have.
 
 1. 
 
