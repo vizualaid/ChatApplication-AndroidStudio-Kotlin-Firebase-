@@ -10,6 +10,13 @@ ChatApplication is a sample Android application built with Android Studio and th
 
 * It should be noted that this application is a sample and might not be fully functional, or have all features that actual Chat applications have.
 
+
+# gif.
+
+![chatapp](https://user-images.githubusercontent.com/74894810/215318027-0a57cff5-b94c-4f2f-a00f-cf79d914e974.gif)
+
+
+
 1. 
 
 ![image](https://user-images.githubusercontent.com/74894810/209445088-824bb632-c723-4e0c-8293-270cec5e2d0d.png)
