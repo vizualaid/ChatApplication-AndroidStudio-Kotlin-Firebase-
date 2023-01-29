@@ -13,7 +13,8 @@ ChatApplication is a sample Android application built with Android Studio and th
 
 # gif.
 
-![chatapp](https://user-images.githubusercontent.com/74894810/215318122-b759818f-fb40-4539-b50b-535dd829dca2.gif)
+![ezgif-3-e293a6263a](https://user-images.githubusercontent.com/74894810/215318250-cadfee57-8535-4df7-a5de-fbf17c549c9f.gif)
+
 
 
 1. 
