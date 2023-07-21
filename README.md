@@ -12,7 +12,7 @@ ChatApplication is a sample Android application built with Android Studio and th
 
 
 # .apk
-[Download App]([URL](https://github.com/vizualaid/ChatApplication-AndroidStudio-Kotlin-Firebase-/raw/master/chatApp.apk))
+[Download App](https://github.com/vizualaid/ChatApplication-AndroidStudio-Kotlin-Firebase-/raw/master/chatApp.apk)
 
 
 # gif.
